@@ -1,0 +1,98 @@
+/* GENERAL */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Ceviche;
+	src: url(../fuentes/CevicheOne.ttf);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BANNER Y BARRA DE NAVEGACION */
+
+header {
+	background-color: tomato;
+
+	width: 100%;
+	height: 105px;
+}
+
+header #contenedor-header {
+	height: 80px;
+	width: 75%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin: auto;
+}
+
+header #logo-texto {
+	color: white;
+
+	font-family: Ceviche;
+	font-size: 19px;
+
+	display: flex;
+	align-items: center;
+}
+
+.boton {
+	background-color: white;
+	color: black;
+
+	border-radius: 10px;
+
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+
+	padding: 10px;
+}
+
+.boton:hover {
+	background-color: #47ffbf;
+	color: black;
+}
+
+#botones-header a {
+	margin-left: 10px;
+}
+
+header #logo {
+	width: 70px;
+	height: 70px;
+}
+
+nav {
+	background-color: #231f20;
+	height: 25px;
+
+	text-align: center;
+}
+
+#menu-header li {
+	margin-left: 20px;
+	margin-right: 20px;
+
+	display: inline-block;
+
+	padding-top: 3px;
+}
+
+#menu-header a {
+	color: white;
+	text-decoration: none;
+}
+
+#menu-header a:hover {
+	color: rgb(221, 221, 221);
+}
