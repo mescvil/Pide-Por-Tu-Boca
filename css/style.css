@@ -18,10 +18,13 @@ body {
 /* BANNER Y BARRA DE NAVEGACION */
 
 header {
-	background-color: tomato;
+	background-color: orangered;
 
 	width: 100%;
-	height: 105px;
+	height: 110px;
+
+	position: fixed;
+	top: 0;
 }
 
 header #contenedor-header {
@@ -53,7 +56,7 @@ header #logo-texto {
 
 	text-decoration: none;
 	font-size: 15px;
-	font-weight: bold;
+	font-weight: 500;
 
 	padding: 10px;
 }
@@ -74,7 +77,7 @@ header #logo {
 
 nav {
 	background-color: #231f20;
-	height: 25px;
+	height: 30px;
 
 	text-align: center;
 }
@@ -85,7 +88,7 @@ nav {
 
 	display: inline-block;
 
-	padding-top: 3px;
+	padding-top: 6px;
 }
 
 #menu-header a {
@@ -95,4 +98,33 @@ nav {
 
 #menu-header a:hover {
 	color: rgb(221, 221, 221);
+}
+
+/* CONTENIDO PRINCIPAL */
+
+#contenedor-principal {
+	width: 75%;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 110px;
+}
+
+
+#contenido{
+	background-color: blueviolet;
+
+	width: 100%;
+	height: 100px;
+
+}
+
+footer {
+	background-color: #231f20;
+
+	width: 100%;
+	height: 50px;
+
+	position: relative;
+	bottom: 0;
 }
