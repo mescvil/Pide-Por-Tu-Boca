@@ -107,17 +107,28 @@ nav {
 
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 110px;
+	margin-top: 120px;
 }
 
-#contenido {
-	width: 100%;
-	height: fit-content;
+#contenedor-principal img {
+	display: block;
+
+    height: 550px;
+	margin: auto;
 }
 
+#contenedor-principal h1 {
+	color: orangered;
+
+	text-align: center;
+    font-size: 60px;
+}
 /* FOOTER */
 
 footer {
+	position: absolute;
+	bottom: 0;
+
 	background-color: #231f20;
 
 	width: 100%;
