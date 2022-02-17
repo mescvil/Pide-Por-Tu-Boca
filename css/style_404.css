@@ -39,13 +39,16 @@ header #contenedor-header {
 }
 
 header #logo-texto {
+	display: flex;
+	align-items: center;
+}
+
+#logo-texto a {
 	color: white;
 
 	font-family: Ceviche;
 	font-size: 19px;
-
-	display: flex;
-	align-items: center;
+	text-decoration: none;
 }
 
 .boton {
@@ -113,7 +116,7 @@ nav {
 #contenedor-principal img {
 	display: block;
 
-    height: 550px;
+	height: 550px;
 	margin: auto;
 }
 
@@ -121,7 +124,7 @@ nav {
 	color: orangered;
 
 	text-align: center;
-    font-size: 60px;
+	font-size: 60px;
 }
 /* FOOTER */
 

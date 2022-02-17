@@ -48,6 +48,14 @@ header #logo-texto {
 	align-items: center;
 }
 
+#logo-texto a {
+	color: white;
+
+	font-family: Ceviche;
+	font-size: 19px;
+	text-decoration: none;
+}
+
 .boton {
 	background-color: white;
 	color: black;
