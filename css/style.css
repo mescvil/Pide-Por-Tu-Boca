@@ -124,29 +124,30 @@ footer {
 
 	width: 100%;
 	height: 150px;
+
+	padding-top: 10px;
 }
 
-#contenedor-footer {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
-	width: 75%;
-	height: inherit;
+footer ul {
+	width: fit-content;
 	margin: auto;
 }
 
-#contenedor-footer #logo-footer {
-	width: 90px;
+footer li {
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+footer h4,
+p {
+	color: white;
+	text-align: center;
+
+	margin: 10px;
 }
 
 .icono-footer {
-	width: 50px;
-	height: 50px;
-}
-
-#social-footer li {
-	margin-right: 5px;
-	margin-left: 5px;
-	display: inline-block;
+	width: 40px;
+	height: 40px;
 }
