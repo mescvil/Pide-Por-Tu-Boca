@@ -1,0 +1,15 @@
+/* CONTENIDO PRINCIPAL */
+
+#contenedor-principal {
+	width: 75%;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 110px;
+}
+
+#contenido {
+	background-color: springgreen;
+	width: 100%;
+	height: 1000px;
+}
