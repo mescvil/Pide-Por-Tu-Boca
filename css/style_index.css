@@ -9,7 +9,31 @@
 }
 
 #contenido {
-	background-color: springgreen;
+	background-color: greenyellow;
 	width: 100%;
 	height: 1000px;
+}
+
+#carrusel-principal .imagen-carrusel {
+	background-color: white;
+	width: inherit;
+}
+
+#carrusel-principal img {
+	display: block;
+	margin: auto;
+
+	width: 100%;
+	height: 600px;
+}
+
+.imagen-carrusel {
+	display: none;
+}
+
+.texto-carrusel {
+	color: greenyellow;
+	font-family: Ceviche;
+	font-size: 40px;
+
 }
