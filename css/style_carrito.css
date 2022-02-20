@@ -1,0 +1,98 @@
+#contenido {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+#informacion-envio {
+	background-color: blueviolet;
+
+	width: 74%;
+	height: 1000px;
+}
+
+#datos-pago {
+	border: 1px solid rgb(219, 219, 219);
+	border-radius: 10px;
+
+	position: relative;
+	display: flex;
+	flex-direction: column;
+
+	width: 25%;
+	height: 400px;
+
+	padding: 10px;
+}
+
+#datos-pago ul {
+	list-style: none;
+	width: 100%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#datos-pago li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+hr {
+	border: 0.3px solid orangered;
+}
+
+#datos-pago .cantidad-pedido {
+	color: black;
+	background-color: rgb(219, 219, 219);
+
+	font-size: 15px;
+	font-weight: bold;
+
+	padding: 3px;
+}
+
+#datos-pago .tipo-pedido {
+	color: black;
+	font-weight: 600;
+
+	margin-left: 5px;
+	width: 70%;
+}
+
+#boton-pago {
+	color: white;
+	background-color: orangered;
+	border-radius: 10px;
+
+	position: absolute;
+	bottom: 10px;
+
+	height: 40px;
+	width: calc(100% - 20px);
+	padding-top: 10px;
+
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#datos-pago p {
+    color: black;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+#total-pagar {
+	color: orangered;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#boton-pago:hover {
+	color: white;
+}

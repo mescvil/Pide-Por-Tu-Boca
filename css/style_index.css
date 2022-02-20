@@ -1,17 +1,5 @@
 /* CONTENIDO PRINCIPAL */
 
-#contenedor-principal {
-	width: 75%;
-
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 110px;
-}
-
-#contenido {
-	width: 100%;
-}
-
 #carrusel-principal {
 	position: relative;
 	background-color: white;

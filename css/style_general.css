@@ -110,6 +110,20 @@ nav {
 	color: rgb(221, 221, 221);
 }
 
+/* CONTENEDOR PRINCIPAL */
+
+#contenedor-principal {
+	width: 75%;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 120px;
+}
+
+#contenido {
+	width: 100%;
+}
+
 /* FOOTER */
 
 footer {

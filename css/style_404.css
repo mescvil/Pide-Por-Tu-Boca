@@ -1,13 +1,5 @@
 /* CONTENIDO PRINCIPAL */
 
-#contenedor-principal {
-	width: 75%;
-
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 120px;
-}
-
 #contenedor-principal img {
 	display: block;
 
