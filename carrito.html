@@ -38,7 +38,37 @@
 
 			<div id="contenedor-principal">
 				<div id="contenido">
-					<section id="informacion-envio"></section>
+					<section id="informacion-envio">
+						<form action="#" method="post">
+							<h3>Datos personales</h3>
+							<label for="nombre">Nombre</label><br />
+							<input type="text" name="nombre" size="40" /><br />
+							<label for="tlf">Teléfono</label><br />
+							<input type="text" name="tlf" size="9" maxlength="9" /><br />
+							<br />
+							<h3>Datos de envio</h3>
+							<div id="direccion-envio">
+								<label for="direccion">Dirección</label><br />
+								<input type="text" name="direccion" size="40" /><br />
+								<label for="numero">Número</label><br />
+								<input type="text" name="numero" size="12" maxlength="2" /><br />
+								<label for="otros">Otros</label><br />
+								<input type="text" name="otros" size="40" /><br />
+								<label for="poblacion">Población</label><br />
+								<input type="text" name="poblacion" size="40" /><br />
+								<label for="codigo-postal">Código Postal</label><br />
+								<input type="text" name="codigo-postal" size="5" maxlength="5" /><br />
+							</div>
+							<div id="forma-pago">
+								<h3>Forma de pago</h3>
+								<div id="formas-pago">
+									<img src="imagenes/pagos/paypal.png" alt="" />
+									<img src="imagenes/pagos/mastercard.png" alt="" />
+									<img src="imagenes/pagos/visa.png" alt="" />
+								</div>
+							</div>
+						</form>
+					</section>
 					<section id="datos-pago">
 						<h3>Resumen del pedido</h3>
 						<hr />

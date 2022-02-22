@@ -1,4 +1,7 @@
 /* CONTENIDO PRINCIPAL */
+#contenedor-principal {
+	height: 700px;
+}
 
 #contenedor-principal img {
 	display: block;
