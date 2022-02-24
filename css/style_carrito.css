@@ -11,7 +11,7 @@
 	border-radius: 10px;
 
 	width: 50%;
-	height: 1000px;
+	height: fit-content;
 
 	padding: 20px;
 	margin-bottom: 20px;
@@ -23,19 +23,24 @@
 }
 
 #informacion-envio h3 {
-	background-color: #47ffbf;
+	background-color: brown;
+	color: white;
 	font-family: Ceviche;
-	font-size: 13px;
+	font-size: 15px;
 	border-radius: 10px;
 
-	padding: 5px;
-	margin-bottom: 10px;
+	height: 40px;
+
+	padding-top: 7px;
+	text-align: center;
+
+	margin-bottom: 20px;
 	margin-top: 10px;
 }
 
 #informacion-envio input {
 	border: none;
-	border-bottom: 1px solid black;
+	border: 1px dashed gray;
 
 	font-size: 15px;
 
@@ -47,7 +52,7 @@
 
 #formas-pago {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-content: center;
 	flex-wrap: wrap;
 
@@ -60,9 +65,11 @@
 	border-radius: 10px;
 
 	padding: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 
-	width: 30%;
-	height: 100px;
+	width: 160px;
+	height: 80px;
 }
 
 /* DATOS DEL PEDIDO */
@@ -125,8 +132,8 @@ hr {
 }
 
 #boton-pago {
-	color: white;
-	background-color: orangered;
+	color: black;
+	background-color: #47ffbf;
 	border-radius: 10px;
 
 	position: absolute;

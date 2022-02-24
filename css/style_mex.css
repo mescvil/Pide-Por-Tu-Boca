@@ -49,25 +49,62 @@
 }
 
 .contenedor-cartas {
-	background-color: gainsboro;
-
 	width: 100%;
-	height: 400px;
+	height: fit-content;
+	padding-bottom: 30px;
 
 	display: flex;
 	justify-content: space-between;
 }
 
 .carta-comida {
-	background-color: chartreuse;
+	background-color: whitesmoke;
+	border-radius: 10px;
 
 	width: 24%;
-	height: fit-content;
+	height: 320px;
 }
 
 .carta-comida img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
 	display: block;
-    margin: auto;
-	width: 95%;
-    height: 150px;
+	margin: auto;
+	width: 100%;
+	height: 150px;
+}
+
+.carta-comida h4 {
+	font-size: 18px;
+
+	margin-top: 10px;
+	text-align: center;
+}
+
+.carta-comida p {
+	color: gray;
+	text-align: center;
+
+	height: 50px;
+}
+
+.carta-comida button {
+	background-color: #47ffbf;
+	border: none;
+	border-radius: 10px;
+
+	font-size: 13px;
+	font-weight: bold;
+
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+
+	width: 80%;
+	height: 30px;
+}
+
+.carta-comida button:hover {
+	background-color: aquamarine;
 }
