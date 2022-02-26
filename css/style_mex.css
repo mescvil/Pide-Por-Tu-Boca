@@ -85,7 +85,9 @@
 .carta-comida p {
 	color: gray;
 	text-align: center;
+	margin: auto;
 
+	width: 90%;
 	height: 50px;
 }
 
