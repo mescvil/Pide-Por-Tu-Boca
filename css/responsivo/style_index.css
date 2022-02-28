@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 902px) {
 	#carrusel-principal h1 {
 		font-size: 35px;
 	}
@@ -8,50 +8,50 @@
 	}
 
 	.carta-oferta {
-		margin-right: 10px;
 		margin-left: 10px;
+		margin-right: 10px;
 
 		width: 30%;
 	}
 }
 
-@media only screen and (max-width: 982px) {
+@media only screen and (max-width: 776px) {
 	#carrusel-principal h1 {
 		font-size: 30px;
 	}
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
 	#contenedor-cartas-ofertas {
 		justify-content: space-between;
 	}
 
 	.carta-oferta {
-		margin-right: 0;
 		margin-left: 0;
+		margin-right: 0;
 
 		width: 48%;
 	}
 }
 
-@media only screen and (max-width: 842px) {
+@media only screen and (max-width: 665px) {
 	#carrusel-principal h1 {
 		font-size: 25px;
 	}
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 554px) {
 	#carrusel-principal h1 {
 		font-size: 20px;
-	}
-}
-
-@media only screen and (max-width: 547px) {
-	#carrusel-principal h1 {
-		font-size: 15px;
 	}
 
 	.carta-oferta {
 		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 447px) {
+	#carrusel-principal h1 {
+		font-size: 18px;
 	}
 }
