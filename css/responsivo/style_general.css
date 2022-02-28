@@ -1,17 +1,59 @@
+/* CONTENEDOR GENERAL */
+
 @media only screen and (max-width: 1142px) {
-	#contenedor-principal {
+	#contenedor-principal,
+	#contenedor-header,
+	#contenedor-footer {
 		width: 85%;
 	}
 }
 
 @media only screen and (max-width: 1010px) {
-	#contenedor-principal {
+	#contenedor-principal,
+	#contenedor-header,
+	#contenedor-footer {
 		width: 90%;
 	}
 }
 
 @media only screen and (max-width: 1010px) {
-	#contenedor-principal {
+	#contenedor-principal,
+	#contenedor-header,
+	#contenedor-footer {
 		width: 95%;
+	}
+}
+
+/* FOOTER Y HEADER */
+
+@media only screen and (max-width: 640px) {
+	#contenedor-secundario-footer {
+		width: 95%;
+		justify-content: space-between;
+	}
+
+	#contenedor-header {
+		width: 90%;
+		height: 110px;
+	}
+
+	#boton-menu {
+		display: block;
+	}
+	
+	nav,
+	#botones-header {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	#contenedor-footer {
+		flex-direction: column;
+		height: 150px;
+	}
+
+	#redes-footer h4 {
+		text-align: center;
 	}
 }
