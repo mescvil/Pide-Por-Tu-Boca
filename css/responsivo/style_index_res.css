@@ -15,12 +15,6 @@
 	}
 }
 
-@media only screen and (max-width: 776px) {
-	#carrusel-principal h1 {
-		font-size: 30px;
-	}
-}
-
 @media only screen and (max-width: 700px) {
 	#contenedor-cartas-ofertas {
 		justify-content: space-between;
@@ -34,24 +28,8 @@
 	}
 }
 
-@media only screen and (max-width: 665px) {
-	#carrusel-principal h1 {
-		font-size: 25px;
-	}
-}
-
 @media only screen and (max-width: 554px) {
-	#carrusel-principal h1 {
-		font-size: 20px;
-	}
-
 	.carta-oferta {
 		width: 100%;
-	}
-}
-
-@media only screen and (max-width: 447px) {
-	#carrusel-principal h1 {
-		font-size: 17px;
 	}
 }

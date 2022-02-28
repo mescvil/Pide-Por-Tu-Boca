@@ -1,0 +1,27 @@
+@media only screen and (max-width: 825px) {
+	#datos-pago {
+		width: 46%;
+	}
+
+	input {
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 631px) {
+	#contenido {
+		flex-direction: column-reverse;
+	}
+
+	#informacion-envio {
+		margin: auto;
+		width: 95%;
+		margin-bottom: 10px;
+	}
+
+	#datos-pago {
+		margin: auto;
+		width: 90%;
+		margin-bottom: 10px;
+	}
+}

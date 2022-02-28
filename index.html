@@ -5,11 +5,13 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+		<!-- Estilos generales -->
 		<link rel="stylesheet" href="css/style_general.css" type="text/css" />
 		<link rel="stylesheet" href="css/style_index.css" type="text/css" />
 
-		<link rel="stylesheet" href="css/responsivo/style_general.css" type="text/css" />
-		<link rel="stylesheet" href="css/responsivo/style_index.css" type="text/css" />
+		<!-- Estilos responsivos -->
+		<link rel="stylesheet" href="css/responsivo/style_general_res.css" type="text/css" />
+		<link rel="stylesheet" href="css/responsivo/style_index_res.css" type="text/css" />
 
 		<link rel="icon" href="imagenes/iconos/pptb.png" />
 
@@ -28,7 +30,12 @@
 						<a class="boton" href="carrito.html">Carrito</a>
 					</div>
 					<button id="boton-menu">
-						<img id="ico-boton" src="imagenes/iconos/menu_alt.png" onclick="muestraMenu()" alt="" />
+						<img
+							id="ico-boton"
+							src="imagenes/iconos/menu_alt.png"
+							onclick="muestraMenu()"
+							alt=""
+						/>
 					</button>
 				</div>
 
@@ -42,7 +49,7 @@
 						<li><a href="404.html">Bebidas</a></li>
 						<hr />
 						<li><a href="404.html">Iniciar Sesión</a></li>
-						<li><a href="404.html">Carrito</a></li>
+						<li><a href="carrito.html">Carrito</a></li>
 					</ul>
 				</nav>
 
@@ -61,7 +68,7 @@
 			<div id="contenedor-principal">
 				<div id="contenido">
 					<section id="carrusel-principal">
-						<h1>Pide Por Tu Boca</h1>
+						<h1 id="texto-carrusel">Pide Por Tu Boca</h1>
 						<div class="imagen-carrusel transicion">
 							<img src="imagenes/carrusel/pizza.jpg" />
 						</div>
