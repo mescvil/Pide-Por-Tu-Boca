@@ -32,15 +32,28 @@
 		justify-content: space-between;
 	}
 
+	#contenedor-principal {
+		margin-top: 90px;
+	}
+
+	header {
+		height: 70px;
+	}
+
+	#logo {
+		height: 60px;
+		width: 60px;
+	}
+
 	#contenedor-header {
 		width: 90%;
-		height: 110px;
+		height: 100%;
 	}
 
 	#boton-menu {
 		display: block;
 	}
-	
+
 	nav,
 	#botones-header {
 		display: none;
