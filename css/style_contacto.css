@@ -1,0 +1,140 @@
+#contenido {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+/* MENU LATERAL */
+
+#menu-lateral {
+	background-color: whitesmoke;
+	position: sticky;
+	top: 120px;
+
+	border-radius: 10px;
+
+	width: 25%;
+	height: fit-content;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+#menu-lateral h4 {
+	color: orangered;
+
+	font-size: 18px;
+	font-family: Ceviche;
+	height: 40px;
+}
+
+#menu-lateral li {
+	height: 35px;
+	width: 95%;
+	list-style: none;
+
+	padding-top: 8px;
+}
+
+#menu-lateral li:hover {
+	border-left: 4px solid orangered;
+	padding-left: 5px;
+}
+
+.seleccionado {
+	border-left: 4px solid #47ffbf;
+	padding-left: 5px;
+}
+
+#menu-lateral a {
+	color: gray;
+	text-decoration: none;
+}
+
+/* CAJA CONTACTO */
+
+#contacto {
+	width: 74%;
+	padding: 15px;
+}
+
+#contacto h1 {
+	background-color: #231f20;
+	color: white;
+	border-radius: 10px;
+
+	font-size: 20px;
+	font-family: Ceviche;
+
+	padding-left: 5px;
+	margin-bottom: 15px;
+}
+
+#contacto h2 {
+	color: #231f20;
+	font-family: Ceviche;
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+
+#contacto h3 {
+	text-decoration: underline;
+	margin-bottom: 40px;
+}
+
+#contacto h4 {
+	color: #231f20;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+table,
+th,
+td {
+	border: 1px solid #231f20;
+}
+
+th {
+	background-color: orangered;
+	color: white;
+	text-align: left;
+
+	height: 45px;
+	padding-left: 5px;
+}
+
+td {
+	font-size: 14px;
+	text-align: center;
+}
+
+#contacto ul {
+	display: none;
+	margin-bottom: 40px;
+}
+
+#contacto li {
+	font-weight: bold;
+	list-style: none;
+}
+
+.lista-interior {
+	color: orangered;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+.rojo {
+	display: block;
+	color: orangered;
+	margin-bottom: 15px;
+}

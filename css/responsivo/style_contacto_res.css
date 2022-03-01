@@ -1,0 +1,23 @@
+@media only screen and (max-width: 900px) {
+	table {
+		display: none;
+	}
+	#contacto ul {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	#contenido {
+		flex-direction: column;
+	}
+	#menu-lateral {
+		position: initial;
+		width: 100%;
+	}
+	#contacto {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+}
