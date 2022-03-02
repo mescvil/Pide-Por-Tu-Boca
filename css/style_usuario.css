@@ -1,0 +1,67 @@
+#contenido {
+	display: flex;
+	justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+/*  PANEL TABULADO */
+
+/* BOTONES */
+#botones-tab {
+	position: sticky;
+	top: 120px;
+
+	background-color: orangered;
+	border-bottom-left-radius: 10px;
+
+	width: 25%;
+	height: fit-content;
+
+	padding-top: 50px;
+	padding-bottom: 65px;
+}
+
+.boton-tab {
+	background-color: orangered;
+	color: white;
+	border: none;
+	border-bottom: 2px dashed rgb(151, 42, 2);
+
+	font-size: 17px;
+	text-align: left;
+	font-family: Ceviche;
+
+	height: 70px;
+	width: 100%;
+	padding-left: 15px;
+}
+
+.boton-tab:hover {
+	background-color: rgb(151, 42, 2);
+}
+
+.boton-activo {
+	background-color: #231f20;
+	border: none;
+}
+
+#contenedor-tabs {
+	width: 83%;
+}
+
+/* PANELES */
+.contenido-tab {
+	background-color: whitesmoke;
+	height: 700px;
+
+	animation: fade 1s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

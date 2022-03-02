@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Estilos generales -->
+		<link rel="stylesheet" href="css/style_general.css" type="text/css" />
+		<link rel="stylesheet" href="css/style_usuario.css" type="text/css" />
+
+		<!-- Estilos responsivos -->
+		<link rel="stylesheet" href="css/responsivo/style_general_res.css" type="text/css" />
+
+		<link rel="icon" href="imagenes/iconos/pptb.png" />
+
+		<title>Pide por tu Boca</title>
+	</head>
+	<body>
+		<div id="contenedor-general">
+			<header>
+				<div id="contenedor-header">
+					<div id="logo-texto">
+						<img id="logo" src="imagenes/logo.png" alt="logo" />
+						<a href="index.html"><p>Pide Por Tu Boca</p></a>
+					</div>
+					<div id="botones-header">
+						<a class="boton" href="404.html">Iniciar Sesión</a>
+						<a class="boton" href="carrito.html">Carrito</a>
+					</div>
+					<button id="boton-menu">
+						<img id="ico-boton" src="imagenes/iconos/menu_alt.png" onclick="muestraMenu()" alt="" />
+					</button>
+				</div>
+
+				<nav id="nav-alt">
+					<ul id="menu-alt">
+						<li><a href="404.html">Menús</a></li>
+						<li><a href="mexicana.html">Mexicana</a></li>
+						<li><a href="404.html">Pizzas</a></li>
+						<li><a href="404.html">Americana</a></li>
+						<li><a href="404.html">Postres</a></li>
+						<li><a href="404.html">Bebidas</a></li>
+						<hr />
+						<li><a href="404.html">Iniciar Sesión</a></li>
+						<li><a href="carrito.html">Carrito</a></li>
+					</ul>
+				</nav>
+
+				<nav>
+					<ul id="menu-header">
+						<li><a href="404.html">Menús</a></li>
+						<li><a href="mexicana.html">Mexicana</a></li>
+						<li><a href="404.html">Pizzas</a></li>
+						<li><a href="404.html">Americana</a></li>
+						<li><a href="404.html">Postres</a></li>
+						<li><a href="404.html">Bebidas</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<div id="contenedor-principal">
+				<div id="contenido">
+					<section id="botones-tab">
+						<button class="boton-tab" id="tab-defecto" onclick="muestraTab(event, 'PPTB')">
+							Mi PPTB
+						</button>
+						<button class="boton-tab" onclick="muestraTab(event, 'Pedidos')">Mis Pedidos</button>
+						<button class="boton-tab" onclick="muestraTab(event, 'Pagos')">Mis Pagos</button>
+						<button class="boton-tab" onclick="muestraTab(event, 'Datos')">Mis Datos</button>
+					</section>
+
+					<section id="contenedor-tabs">
+						<div id="PPTB" class="contenido-tab">
+							<h3>London</h3>
+							<p>London is the capital city of England.</p>
+						</div>
+
+						<div id="Pedidos" class="contenido-tab">
+							<h3>C</h3>
+							<p>London is the capital city of England.</p>
+						</div>
+
+						<div id="Pagos" class="contenido-tab">
+							<h3>B</h3>
+							<p>London is the capital city of England.</p>
+						</div>
+
+						<div id="Datos" class="contenido-tab">
+							<h3>A</h3>
+							<p>London is the capital city of England.</p>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<footer>
+				<div id="contenedor-footer">
+					<div id="logo-footer">
+						<img id="logo-img" src="imagenes/iconos/pptb.png" alt="logo" />
+						<h4>Pide Por Tu Boca</h4>
+					</div>
+					<div id="redes-footer">
+						<h4>Comunidad</h4>
+						<ul>
+							<li>
+								<a href="https://twitter.com/?lang=es"
+									><img class="icono-footer" src="imagenes/iconos/twitter.png" alt=""
+								/></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/?hl=es"
+									><img class="icono-footer" src="imagenes/iconos/instagram.png" alt=""
+								/></a>
+							</li>
+							<li>
+								<a href="https://es-es.facebook.com"
+									><img class="icono-footer" src="imagenes/iconos/facebook.png" alt=""
+								/></a>
+							</li>
+							<li>
+								<a href="https://github.com/mescvil/Pide-Por-Tu-Boca"
+									><img class="icono-footer" src="imagenes/iconos/github.png" alt=""
+								/></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="contenedor-secundario-footer">
+					<div class="lista-footer">
+						<h4>Productos</h4>
+						<ul>
+							<li><a href="#">Menú</a></li>
+							<li><a href="#">Pizzas</a></li>
+							<li><a href="mexicana.html">Mexicana</a></li>
+							<li><a href="#">Americana</a></li>
+							<li><a href="#">Postres</a></li>
+						</ul>
+					</div>
+
+					<div class="lista-footer">
+						<h4>Ayuda</h4>
+						<ul>
+							<li><a href="contacto.html">Contacto</a></li>
+							<li><a href="#">Estado del pedido</a></li>
+							<li><a href="#">Registro</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Covid-19</a></li>
+						</ul>
+					</div>
+
+					<div class="lista-footer">
+						<h4>Corporativo</h4>
+						<ul>
+							<li><a href="#">Acerca de PPTB</a></li>
+							<li><a href="#">Trabaja con nosotros</a></li>
+						</ul>
+					</div>
+				</div>
+				<p>©2022 SrScuz</p>
+				<script src="scripts/menu.js"></script>
+				<script src="scripts/panel_tabulado.js"></script>
+			</footer>
+		</div>
+	</body>
+</html>
