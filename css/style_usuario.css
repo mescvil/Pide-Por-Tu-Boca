@@ -19,19 +19,19 @@ a {
 	position: sticky;
 	top: 110px;
 
-	background-color: orangered;
+	background-color: #231f20;
 	border-bottom-left-radius: 10px;
 
-	width: 25%;
+	width: 20%;
 	height: fit-content;
-	padding-bottom: 15px;
+	padding-bottom: 30px;
 }
 
 .boton-tab {
-	background-color: orangered;
+	background-color: #231f20;
 	color: white;
 	border: none;
-	border-bottom: 2px solid rgb(151, 42, 2);
+	border-bottom: 2px solid orangered;
 
 	font-size: 17px;
 	text-align: left;
@@ -43,11 +43,11 @@ a {
 }
 
 .boton-tab:hover {
-	background-color: rgb(151, 42, 2);
+	background-color: orangered;
 }
 
 .boton-activo {
-	background-color: #231f20;
+	background-color: orangered;
 	border: none;
 }
 
@@ -78,7 +78,7 @@ a {
 	}
 }
 
-.contenido-tab h2 {
+h2 {
 	border-bottom: 1px solid grey;
 	padding-bottom: 15px;
 
@@ -121,17 +121,17 @@ a {
 	width: 40%;
 }
 
-.carta-comida #datos-pedido {
+.carta-comida .datos-pedido {
 	padding-top: 10px;
 	width: 58%;
 }
 
-#datos-pedido ul {
+.datos-pedido ul {
 	margin-top: 10px;
 	padding-left: 25px;
 }
 
-#datos-pedido li {
+.datos-pedido li {
 	list-style: none;
 	margin-bottom: 10px;
 }
