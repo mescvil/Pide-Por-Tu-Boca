@@ -1,7 +1,15 @@
+#contenedor-principal {
+	margin-top: 110px;
+}
+
 #contenido {
 	display: flex;
 	justify-content: space-between;
-    padding-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+a {
+	color: orangered;
 }
 
 /*  PANEL TABULADO */
@@ -9,23 +17,21 @@
 /* BOTONES */
 #botones-tab {
 	position: sticky;
-	top: 120px;
+	top: 110px;
 
 	background-color: orangered;
 	border-bottom-left-radius: 10px;
 
 	width: 25%;
 	height: fit-content;
-
-	padding-top: 50px;
-	padding-bottom: 65px;
+	padding-bottom: 15px;
 }
 
 .boton-tab {
 	background-color: orangered;
 	color: white;
 	border: none;
-	border-bottom: 2px dashed rgb(151, 42, 2);
+	border-bottom: 2px solid rgb(151, 42, 2);
 
 	font-size: 17px;
 	text-align: left;
@@ -51,10 +57,16 @@
 
 /* PANELES */
 .contenido-tab {
-	background-color: whitesmoke;
-	height: 700px;
+	border-left: 1px solid rgb(219, 219, 219);
+	border-right: 1px solid rgb(219, 219, 219);
+	border-bottom: 1px solid rgb(219, 219, 219);
 
-	animation: fade 1s;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	padding: 20px;
+
+	animation: fade 0.5s;
 }
 
 @keyframes fade {
@@ -64,4 +76,116 @@
 	to {
 		opacity: 1;
 	}
+}
+
+.contenido-tab h2 {
+	border-bottom: 1px solid grey;
+	padding-bottom: 15px;
+
+	font-weight: bold;
+}
+
+#enlace-editar {
+	display: block;
+	margin-top: 7px;
+	text-align: right;
+}
+
+#datos-usuario {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#datos-usuario p {
+	margin-bottom: 5px;
+}
+.negrita {
+	font-weight: bold;
+}
+
+.carta-comida {
+	background-color: whitesmoke;
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: space-between;
+
+	width: 100%;
+	height: 200px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.carta-comida img {
+	height: 100%;
+	width: 40%;
+}
+
+.carta-comida #datos-pedido {
+	padding-top: 10px;
+	width: 58%;
+}
+
+#datos-pedido ul {
+	margin-top: 10px;
+	padding-left: 25px;
+}
+
+#datos-pedido li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.cantidad {
+	background-color: #231f20;
+	color: white;
+
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+}
+
+/* PRMOCIONES */
+#contenedor-promociones {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.promocion {
+	background-color: #47ffbf;
+	border: 2px dashed #231f20;
+	border-radius: 10px;
+
+	text-align: center;
+
+	width: 32%;
+	height: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.promocion h4 {
+	padding-top: 5px;
+}
+
+.promocion button {
+	background-color: #231f20;
+	color: white;
+	border: none;
+	border-radius: 10px;
+
+	font-family: Fredoka;
+	font-size: 16px;
+
+	display: block;
+	height: 30px;
+	width: 90%;
+	margin: auto;
+	margin-top: 35px;
+}
+
+.img-conts {
+	width: 100%;
+	height: 50%;
 }

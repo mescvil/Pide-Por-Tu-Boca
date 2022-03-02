@@ -25,7 +25,7 @@
 						<a href="index.html"><p>Pide Por Tu Boca</p></a>
 					</div>
 					<div id="botones-header">
-						<a class="boton" href="404.html">Iniciar Sesión</a>
+						<a class="boton" href="usuario.html">Iniciar Sesión</a>
 						<a class="boton" href="carrito.html">Carrito</a>
 					</div>
 					<button id="boton-menu">
@@ -42,7 +42,7 @@
 						<li><a href="404.html">Postres</a></li>
 						<li><a href="404.html">Bebidas</a></li>
 						<hr />
-						<li><a href="404.html">Iniciar Sesión</a></li>
+						<li><a href="usuario.html">Iniciar Sesión</a></li>
 						<li><a href="carrito.html">Carrito</a></li>
 					</ul>
 				</nav>
@@ -66,14 +66,48 @@
 							Mi PPTB
 						</button>
 						<button class="boton-tab" onclick="muestraTab(event, 'Pedidos')">Mis Pedidos</button>
-						<button class="boton-tab" onclick="muestraTab(event, 'Pagos')">Mis Pagos</button>
+						<button class="boton-tab" onclick="muestraTab(event, 'Pagos')">Mis Tarjetas</button>
 						<button class="boton-tab" onclick="muestraTab(event, 'Datos')">Mis Datos</button>
 					</section>
 
 					<section id="contenedor-tabs">
 						<div id="PPTB" class="contenido-tab">
-							<h3>London</h3>
-							<p>London is the capital city of England.</p>
+							<h2>Tu perfil</h2>
+							<a id="enlace-editar" href="#">Editar mi perfil</a>
+							<div id="datos-usuario">
+								<p>Dirección: <span class="negrita"> Avd. de Madrid nº72 Portal 1 5ºD</span></p>
+								<p>Teléfono: <span class="negrita"> 630 919 015</span></p>
+								<p>Email: <span class="negrita"> mescvil969@g.educaand.es</span></p>
+							</div>
+							<h2>Último pedido</h2>
+							<div class="carta-comida">
+								<img src="imagenes/comida.jpeg" alt="" />
+								<div id="datos-pedido">
+									<h4>02/03/2022</h4>
+									<p>3 artículos por 13,10€ | 21:33 | &nbsp;<a href="#">Ver recibo</a></p>
+									<ul>
+										<li><span class="cantidad">2</span> Menú Durum</li>
+										<li>
+											<span class="cantidad">1</span> Patatas Fritas con Carne y Queso Grandes
+										</li>
+									</ul>
+								</div>
+							</div>
+							<h2>Promociones para ti</h2>
+							<div id="contenedor-promociones">
+								<div class="promocion">
+									<h4>2x1 en comida Mexicana</h4>
+									<button>Lo quiero</button>
+								</div>
+								<div class="promocion">
+									<h4>50% en tu próximo pedido</h4>
+									<button>Lo quiero</button>
+								</div>
+								<div class="promocion">
+									<h4>Coca-Cola (33cl) gratis</h4>
+									<button>Lo quiero</button>
+								</div>
+							</div>
 						</div>
 
 						<div id="Pedidos" class="contenido-tab">
@@ -82,13 +116,11 @@
 						</div>
 
 						<div id="Pagos" class="contenido-tab">
-							<h3>B</h3>
-							<p>London is the capital city of England.</p>
+							<img class="img-conts" src="imagenes/construccion.jpg" alt="" />
 						</div>
 
 						<div id="Datos" class="contenido-tab">
-							<h3>A</h3>
-							<p>London is the capital city of England.</p>
+							<img class="img-conts" src="imagenes/construccion.jpg" alt="" />
 						</div>
 					</section>
 				</div>
