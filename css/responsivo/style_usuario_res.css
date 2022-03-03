@@ -1,0 +1,79 @@
+@media only screen and (max-width: 900px) {
+	#contenedor-principal {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#contenedor-principal {
+		width: 100%;
+	}
+	#botones-tab {
+		position: initial;
+		display: flex;
+		width: 100%;
+	}
+	#contenedor-tabs {
+		width: 100%;
+	}
+	.boton-tab {
+		text-align: center;
+		padding-left: 0;
+	}
+	.boton-tab:hover {
+		color: black;
+		background-color: #47ffbf;
+	}
+	.boton-activo {
+		color: black;
+		background-color: #47ffbf;
+	}
+	#contenido {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#contenedor-principal {
+		margin-top: 70px;
+	}
+	.promocion {
+		width: 49%;
+	}
+}
+
+@media only screen and (max-width: 579px) {
+	.carta-comida {
+		height: fit-content;
+	}
+
+	.carta-comida img {
+		display: none;
+	}
+	.carta-comida .datos-pedido {
+		margin: auto;
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.boton-tab {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 445px) {
+	#contenedor-promociones {
+		flex-direction: column;
+		align-items: center;
+	}
+	.promocion {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.boton-tab {
+		font-size: 10px;
+	}
+}

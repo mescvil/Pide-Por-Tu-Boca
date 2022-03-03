@@ -20,11 +20,9 @@ a {
 	top: 110px;
 
 	background-color: #231f20;
-	border-bottom-left-radius: 10px;
 
 	width: 20%;
 	height: fit-content;
-	padding-bottom: 30px;
 }
 
 .boton-tab {
@@ -33,7 +31,7 @@ a {
 	border: none;
 	border-bottom: 2px solid orangered;
 
-	font-size: 17px;
+	font-size: 15px;
 	text-align: left;
 	font-family: Ceviche;
 
